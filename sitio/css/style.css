@@ -1,0 +1,333 @@
+.contenedor {
+	max-width: 1000px;
+	margin:auto;
+
+}
+
+nav.menu	{
+ background: #2a3e50;
+ line-height: 100px;
+}
+
+.menu .contenedor {
+	display: flex;
+	justify-content: space-between;
+}
+
+h2 {
+	font-family: Montserrat;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: white;
+}
+
+.presentacion {
+	background: #00bd9d;
+	text-align: center;
+	padding: 150px 0;
+}
+
+.presentacion div img {
+	margin-bottom: 40px;
+}
+
+.estrella:after, .estrella:before {
+	content:"";
+	height: 4px;
+	width: 100px;
+	background:white;
+	display: inline-block;
+	position: relative;
+	top:-6px;
+}
+
+.estrella-negra:after, .estrella-negra:before {
+	content:"";
+	height: 4px;
+	width: 100px;
+	background:#293c4f;
+	display: inline-block;
+	position: relative;
+	top:-6px;
+}
+
+nav ul li a{
+	font-family: Montserrat;
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+
+}
+
+nav ul li {
+	display: inline-flex;
+}
+
+/*nav ul {
+	float: right;
+}
+
+nav div ul{
+	justify-content: space-between;
+} */
+
+nav ul li a:hover {
+	color: #00bd9d;
+
+}
+
+.presentacion h1 {
+	font-family: Montserrat;
+	font-size: 60px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: white;
+
+}
+
+.presentacion .ion-star {
+	font-size: 30px;
+	color: white;
+
+}
+
+.linea	{
+	background: white;
+	height: 5px;
+	max-width: 100px;
+}
+
+.presentacion p{
+	font-family: Open sans;
+	font-size: 20px;
+	color: white;
+}
+
+.portfolio h3 {
+	font-family: Montserrat;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #293c4f;
+}
+
+.linea-negra {
+	background: #293c4f;
+	height: 5px;
+	max-width: 100px;
+}
+
+.portfolio .ion-star {
+	font-size: 30px;	
+	color: #293c4f;
+}
+
+.portfolio {
+	overflow: auto;
+	text-align: center;
+	padding: 100px 0;
+
+}
+
+
+.imagenes {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	width: 32%;
+	margin-bottom: 5px;
+}
+
+.imagenes img {
+	width: 100%;
+}
+
+.ion-search {
+	color: white;
+	font-size: 40px;
+
+}
+
+.overlay {
+	background: rgba(0,189,157,0.5);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 100%;
+	left: 0;
+	transition: 1s;
+}
+
+.imagenes:hover .overlay{
+	top: 0;
+}
+
+.about h3 {
+	font-family: Montserrat;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: white;
+	text-align: center;
+}
+
+.about {
+	background: #00bd9d;
+	text-align: center;
+	padding: 100px 0;
+}
+
+.about .ion-star {
+	font-size: 30px;
+	color: white;
+}
+
+.about p {
+	font-family: Open sans;
+	font-size: 20px;
+	color: white;
+}
+
+.parrafos {
+	display: flex;
+	justify-content: center;
+
+}
+
+.parrafos p {
+	padding:10px;
+	max-width: 270px;
+	text-align: left;
+}
+
+.contact h3 {
+	font-family: Montserrat;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #293c4f;
+}
+
+.contact .ion-star {
+	font-size: 30px;	
+	color: #293c4f;
+}
+
+.contact {
+	text-align: center;
+	padding: 100px 0;
+}
+
+.contact form input{
+	width: 80%;
+    height: 60px;
+    font-family: Open sans;
+    font-size: 20px;
+    border-right:none;
+    border-left:none;
+}
+
+.contact div form input.nombre{
+	margin-top: 30px;
+}
+
+.contact form textarea {
+	width: 80%;
+    height: 140px;
+    font-family: Open sans;
+    color: #b5bdc4;
+    font-size: 20px;
+    border-right:none;
+    border-left:none;
+	
+}
+
+.contact form .boton {
+	width: 70px;
+	background: #00bd9d;
+	font-family: Open sans;
+	font-weight: 400;
+	color: white;
+	border-radius: 5px;
+	border:none;
+	font-size: 15px;
+}
+
+footer {
+	background: #293c4f;
+}
+
+footer h3{
+	font-family: Montserrat;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: white;
+}
+
+footer p {
+	font-family: Open sans;
+	font-size: 20px;
+	color: white;
+	padding-top: 30px;
+	}
+
+footer span {
+	color: white;
+    font-size: 25px;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    text-align: center;
+    margin: 33px 4px;
+    padding-top: 12px;
+}
+
+.copy  {
+	background: #213140;
+
+}
+
+footer .contenedor  {
+	/*display: flex;
+	text-align: center;
+	padding: 10px; */
+}
+
+.location, .social-media{
+	display: inline-block;
+	padding-top: 50px;
+ }
+
+.location {
+	width: 25%;
+	text-align: center;
+}
+
+.social-media {
+	width: 50%;
+	text-align: center;
+} 
+
+ .copy {
+ 	display: flex;
+ 	justify-content: center;
+}
+
+ .copy h5 {
+ 	font-family: Open sans;
+    font-size: 15px;
+    color: white;
+    line-height: 60px; 
+}
+
+@media screen and (max-width: 400px) {
+
+	
+}
